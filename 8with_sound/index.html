@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>visual_with_sound</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div class="panel">
+      <div class="title">visual_with_sound</div>
+      <div class="hint">Arduino： ult for 1-2 ｜ button for 2-3 ｜ key：1 / 2 / 3 ｜ R：Reset ｜ F：FullScreen ｜ H：Hide UI</div>
+      <div class="controls">
+        <button id="serialBtn" type="button">Connect Arduino</button>
+        <div id="serialStatus">Serial: not connected</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
